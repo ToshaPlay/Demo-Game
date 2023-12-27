@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://b3pufu21ybj8b"]
+
+[ext_resource type="VideoStream" path="res://well_done.ogv" id="1_dmsgg"]
+[ext_resource type="Script" path="res://WELL DONE.gd" id="2_qgm0o"]
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+stream = ExtResource("1_dmsgg")
+autoplay = true
+script = ExtResource("2_qgm0o")
+metadata/_edit_use_anchors_ = true

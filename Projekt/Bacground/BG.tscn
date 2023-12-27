@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://c4ehly8pbulfu"]
+
+[ext_resource type="Texture2D" uid="uid://davla46d5tp14" path="res://Bacground/jyngli.png" id="1_2kbeh"]
+
+[node name="ParallaxBackground" type="ParallaxBackground"]
+
+[node name="Jyngli" type="Sprite2D" parent="."]
+position = Vector2(577, 325)
+scale = Vector2(0.600521, 0.601852)
+texture = ExtResource("1_2kbeh")
